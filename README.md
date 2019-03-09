@@ -3,7 +3,7 @@
 Open Distro For Elasticsearch Security Parent is a free and Parent repo for security related repository.
 
 ## Documentation
-Please refer to the [Official documentation] for detailed information.
+Please refer to the [technical documentation](https://opendistro.github.io/for-elasticsearch-docs) for detailed information.
 
 ## License
 
