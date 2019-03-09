@@ -15,8 +15,8 @@ Please refer to the [technical documentation](https://opendistro.github.io/for-e
 
 ## License
 
-Open Distro For Elasticsearch Security Parent is licensed under the Apache 2.0 license.
+This code is licensed under the Apache 2.0 License. 
 
-## Legal 
-Open Distro For Elasticsearch Security Parent
-Copyright 2019- Amazon.com, Inc. or its affiliates. All Rights Reserved.
+## Copyright
+
+Open Distro For Elasticsearch Security Copyright 2019- Amazon.com, Inc. or its affiliates. All Rights Reserved.
