@@ -38,7 +38,7 @@
     <packaging>pom</packaging>
 
     <name>Elasticsearch Security Parent</name>
-    <url>https://github.com/mauve-hedgehog/security-parent</url>
+    <url>https://github.com/opendistro-for-elasticsearch/security-parent</url>
     <description>Security for Open Distro Elasticsearch</description>
 
     <properties>
@@ -379,9 +379,9 @@
     </profiles>
 
     <scm>
-        <url>https://github.com/mauve-hedgehog/security-parent</url>
-        <connection>scm:git:git@github.com:mauve-hedgehog/security-parent</connection>
-        <developerConnection>scm:git:git@github.com:mauve-hedgehog/security-parent</developerConnection>
+        <url>https://github.com/opendistro-for-elasticsearch/security-parent</url>
+        <connection>scm:git:git@github.com:opendistro-for-elasticsearch/security-parent.git</connection>
+        <developerConnection>scm:git:git@github.com:opendistro-for-elasticsearch/security-parent.git</developerConnection>
         <tag>v0.7.0</tag>
     </scm>
 </project>
