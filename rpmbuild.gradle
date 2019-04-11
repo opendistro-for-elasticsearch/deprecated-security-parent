@@ -16,6 +16,7 @@ group = "com.amazon.opendistroforelasticsearch"
 // Reset the final digit to 0 when upgrading to a new opendistro version
 version = "${opendistroVersion}.0" + (isSnapshot ? "-SNAPSHOT" : "")
 
+
 if (!project.hasProperty("archivePath")) {
     throw new GradleException("Missing -ParchivePath command line switch pointing to built plugin ZIP")
 }
@@ -39,7 +40,7 @@ ospackage {
     dirMode 0755
 
     requires('elasticsearch-oss', "6.6.2", EQUAL)
-    arch = 'NOARCH'
+    arch = isDeb ? 'amd64' : 'NOARCH'
     packager = 'Amazon'
     vendor = 'Amazon'
     os = 'LINUX'
@@ -59,4 +60,8 @@ ospackage {
 
 buildRpm {
     archiveName "${packageName}-${version}.rpm"
+}
+
+buildDeb {
+    archiveName "${packageName}-${version}.deb"
 }
