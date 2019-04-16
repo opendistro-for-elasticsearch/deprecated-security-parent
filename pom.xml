@@ -37,9 +37,9 @@
     <version>0.7.0.1</version>
     <packaging>pom</packaging>
 
-    <name>Elasticsearch Security Parent</name>
+    <name>Open Distro For Elasticsearch Security Parent</name>
     <url>https://github.com/opendistro-for-elasticsearch/security-parent</url>
-    <description>Security for Open Distro Elasticsearch</description>
+    <description>Security Parent for Open Distro For Elasticsearch</description>
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
