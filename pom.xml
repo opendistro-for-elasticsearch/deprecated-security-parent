@@ -39,7 +39,7 @@
 
     <name>Open Distro For Elasticsearch Security Parent</name>
     <url>https://github.com/opendistro-for-elasticsearch/security-parent</url>
-    <description>Security Parent for Open Distro For Elasticsearch</description>
+    <description>Open Distro For Elasticsearch Security Parent</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
