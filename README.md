@@ -14,7 +14,7 @@ Open Distro for Elasticsearch Security Parent is a parent repo for the Open Dist
 Please refer to the [technical documentation](https://opendistro.github.io/for-elasticsearch-docs) for detailed information.
 
 ## Build
-To build the security plugin from source follow these instructions in this order:
+To build the security plugin from source follow these instructions **in this order**:
 
 
 Download the `security-parent` source code
@@ -44,7 +44,7 @@ Install to the `.m2` directory:
 
 `cd ..`
 
-Download the `security-ssl` source code *(only for versions < 1.0.0.0 **Elasticsearch 7**)*
+Download the `security-ssl` source code **(only for versions < 1.0.0.0 [ Elasticsearch 7 ])**
 
 `git clone https://github.com/opendistro-for-elasticsearch/security-ssl.git`
 
