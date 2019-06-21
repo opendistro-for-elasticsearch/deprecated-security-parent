@@ -25,6 +25,8 @@ Download the `security-parent` source code
 
 
 Install to the .m2 directory: 
+
+
 `mvn clean install`
 
 `cd ..`
@@ -36,6 +38,8 @@ Download the `security` source code
 `cd security`
 
 Install to the `.m2` directory: 
+
+
 `mvn clean install`
 
 `cd ..`
@@ -45,6 +49,8 @@ Download the `security-ssl` source code (only for versions < 1.0.0.0 (Elasticsea
 `git clone https://github.com/opendistro-for-elasticsearch/security-ssl.git`
 
 Install to the `.m2` directory: 
+
+
 `cd security-ssl`
 
 `mvn clean install`
@@ -57,6 +63,8 @@ Download the `security-advanced-modules` source code
 `git clone https://github.com/opendistro-for-elasticsearch/security-advanced-modules.git`
 
 Install to the `.m2` directory: 
+
+
 `cd security-advanced-modules`
 
 `mvn clean install`
@@ -78,6 +86,8 @@ Build the Elasticsearch plugin
 Install the plugin to your Elasticsearch cluster with the following commands:
 
 `cd elasticsearch/bin`
+
+
 `./elasticsearch-plugin install file:///path/to/security/target/releases/opendistro_security-<version>.zip`
 
 
