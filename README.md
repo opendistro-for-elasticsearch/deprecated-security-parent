@@ -44,7 +44,7 @@ Install to the `.m2` directory:
 
 `cd ..`
 
-Download the `security-ssl` source code (only for versions < 1.0.0.0 (Elasticsearch 7))
+Download the `security-ssl` source code *(only for versions < 1.0.0.0 **Elasticsearch 7**)*
 
 `git clone https://github.com/opendistro-for-elasticsearch/security-ssl.git`
 
