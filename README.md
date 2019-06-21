@@ -94,6 +94,9 @@ The above builds the final artifacts in zip format.
 
 The artifacts can be found in the above directory
 
+Detailed instructions on how to build the **security-kibana** plugin can be found here: 
+
+https://github.com/opendistro-for-elasticsearch/security-kibana-plugin/blob/master/README.md#build
 
 
 ## Install
