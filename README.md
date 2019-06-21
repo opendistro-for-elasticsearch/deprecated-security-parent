@@ -13,6 +13,17 @@ Open Distro for Elasticsearch Security Parent is a parent repo for the Open Dist
 ## Documentation
 Please refer to the [technical documentation](https://opendistro.github.io/for-elasticsearch-docs) for detailed information.
 
+## Requirements
+
+Make sure you are in the directory elasticsearch/linux_distributions folder and have Java installed (assume you are using Ubuntu 18.04).
+
+- Java
+```
+sudo add-apt-repository ppa:openjdk-r/ppa
+sudo apt-get update
+sudo apt install openjdk-11-jdk
+```
+
 ## Build
 To build the security plugin from source follow these instructions **in this order**:
 
