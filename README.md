@@ -75,9 +75,13 @@ Build the Elasticsearch plugin
 
 `cd security`
 
-`mvn clean package -Padvanced` This builds the final artifacts in zip format. 
+`mvn clean package -Padvanced` 
+
+The above builds the final artifacts in zip format. 
 
 `cd target/releases/`
+
+The artifacts can be found in the above directory
 
 
 
