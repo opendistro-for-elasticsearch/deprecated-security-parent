@@ -31,10 +31,9 @@ To build the security plugin from source follow these instructions **in this ord
 
 `git clone https://github.com/opendistro-for-elasticsearch/security-parent.git`
 
-`cd security-parent`
-
-
 2. Install to the local repository folder named `.m2`: 
+
+`cd security-parent`
 
 `mvn clean install`
 
@@ -44,9 +43,9 @@ To build the security plugin from source follow these instructions **in this ord
 
 `git clone https://github.com/opendistro-for-elasticsearch/security.git`
 
-`cd security`
-
 4. Install to the local repository folder named `.m2`: 
+
+`cd security`
 
 `mvn clean install`
 
@@ -58,9 +57,9 @@ To build the security plugin from source follow these instructions **in this ord
 
 `git clone https://github.com/opendistro-for-elasticsearch/security-ssl.git`
 
-`cd security-ssl`
-
 6. Install to the local repository folder named `.m2`: 
+
+`cd security-ssl`
 
 `mvn clean install`
 
@@ -70,19 +69,17 @@ To build the security plugin from source follow these instructions **in this ord
 
 `git clone https://github.com/opendistro-for-elasticsearch/security-advanced-modules.git`
 
-`cd security-advanced-modules`
-
 8. Install to the local repository folder named `.m2`: 
+
+`cd security-advanced-modules`
 
 `mvn clean install`
 
 `cd .. `
 
-9. Build the Elasticsearch plugin:
+9. Build the Elasticsearch plugin and install final artifacts:
 
 `cd security`
-
-10. Install final artifacts:
 
 `mvn clean package -Padvanced` 
 
@@ -92,7 +89,7 @@ The above builds the final artifacts in zip format.
 
 The artifacts can be found in the folder listed above.
 
-11. Detailed instructions on how to build the **security-kibana** plugin can be found here: 
+10. Detailed instructions on how to build the **security-kibana** plugin can be found here: 
 
 https://github.com/opendistro-for-elasticsearch/security-kibana-plugin/blob/master/README.md#build
 
