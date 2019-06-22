@@ -1,6 +1,6 @@
 # Open Distro For Elasticsearch Security Parent
 
-Open Distro for Elasticsearch Security Parent is a parent repo for the Open Distro for Elasticsearch Security related repositories, including:
+Open Distro for Elasticsearch Security Parent is the parent repo for the Open Distro for Elasticsearch security plugin repositories, including:
 
 [Security]( https://github.com/opendistro-for-elasticsearch/security)
 
@@ -17,7 +17,6 @@ Please refer to the [technical documentation](https://opendistro.github.io/for-e
 
 Make sure you are in the elasticsearch/linux_distributions folder. Here are the instructions for installing Java (OpenJDK 11) for Debian based distributions.
 
-- Java
 ```
 sudo add-apt-repository ppa:openjdk-r/ppa
 sudo apt-get update
@@ -28,59 +27,62 @@ sudo apt install openjdk-11-jdk
 To build the security plugin from source follow these instructions **in this order**:
 
 
-Download the `security-parent` source code
+1. Download the `security-parent` source code:
 
 `git clone https://github.com/opendistro-for-elasticsearch/security-parent.git`
 
 `cd security-parent`
 
 
-Install to the .m2 directory: 
-
+2. Install to the local repository folder named `.m2`: 
 
 `mvn clean install`
 
 `cd ..`
 
-Download the `security` source code
+3. Download the `security` source code:
 
 `git clone https://github.com/opendistro-for-elasticsearch/security.git`
 
 `cd security`
 
-Install to the `.m2` directory: 
+4. Install to the local repository folder named `.m2`: 
 
 `mvn clean install`
 
 `cd ..`
 
-Download the `security-ssl` source code **(only for versions < 1.0.0.0 [ Elasticsearch 7 ])**
+5. Download the `security-ssl` source code: 
+
+**(Note: This step works only for plug-in versions below 1.0.0.0 [ Elasticsearch 7.0.1 ])**
 
 `git clone https://github.com/opendistro-for-elasticsearch/security-ssl.git`
 
 `cd security-ssl`
 
-Install to the `.m2` directory: 
+6. Install to the local repository folder named `.m2`: 
 
 `mvn clean install`
 
 `cd .. `
 
-Download the `security-advanced-modules` source code
+7. Download the `security-advanced-modules` source code:
 
 `git clone https://github.com/opendistro-for-elasticsearch/security-advanced-modules.git`
 
 `cd security-advanced-modules`
 
-Install to the `.m2` directory: 
+8. Install to the local repository folder named `.m2`: 
 
 `mvn clean install`
 
 `cd .. `
 
-Build the Elasticsearch plugin
+9. Build the Elasticsearch plugin:
 
 `cd security`
+
+10. Install final artifacts:
 
 `mvn clean package -Padvanced` 
 
@@ -88,9 +90,9 @@ The above builds the final artifacts in zip format.
 
 `cd target/releases/`
 
-The artifacts can be found in the above directory
+The artifacts can be found in the folder listed above.
 
-Detailed instructions on how to build the **security-kibana** plugin can be found here: 
+11. Detailed instructions on how to build the **security-kibana** plugin can be found here: 
 
 https://github.com/opendistro-for-elasticsearch/security-kibana-plugin/blob/master/README.md#build
 
