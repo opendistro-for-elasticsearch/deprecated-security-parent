@@ -54,7 +54,7 @@ To build the security plugin from source follow these instructions **in this ord
 
 5. Download the `security-ssl` source code: 
 
-**(Note: This step works only for plug-in versions below 1.0.0.0 [ Elasticsearch 7.0.1 ])**
+**(Note: This step is needed only for the security plug-in for Open Distro version 0.9.0 supporting Elasticsearch 6.7.1 and below.)**
 
 `git clone https://github.com/opendistro-for-elasticsearch/security-ssl.git`
 
