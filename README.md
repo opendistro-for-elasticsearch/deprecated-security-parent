@@ -15,7 +15,7 @@ Please refer to the [technical documentation](https://opendistro.github.io/for-e
 
 ## Requirements
 
-Make sure you are in the directory elasticsearch/linux_distributions folder and have Java installed (assume you are using Ubuntu 18.04).
+Make sure you are in the elasticsearch/linux_distributions folder. Here are the instructions for installing Java (OpenJDK 11) for Debian based distributions.
 
 - Java
 ```
