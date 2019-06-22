@@ -33,11 +33,12 @@ To build the security plugin from source follow these instructions **in this ord
 
 2. Install to the local repository folder named `.m2`: 
 
-`cd security-parent`
 
-`mvn clean install`
-
-`cd ..`
+```
+cd security-parent
+mvn clean install
+cd ..
+```
 
 3. Download the `security` source code:
 
