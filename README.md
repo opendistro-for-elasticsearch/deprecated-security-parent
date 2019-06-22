@@ -50,7 +50,6 @@ Download the `security` source code
 
 Install to the `.m2` directory: 
 
-
 `mvn clean install`
 
 `cd ..`
@@ -59,24 +58,21 @@ Download the `security-ssl` source code **(only for versions < 1.0.0.0 [ Elastic
 
 `git clone https://github.com/opendistro-for-elasticsearch/security-ssl.git`
 
-Install to the `.m2` directory: 
-
-
 `cd security-ssl`
+
+Install to the `.m2` directory: 
 
 `mvn clean install`
 
 `cd .. `
 
-
 Download the `security-advanced-modules` source code
 
 `git clone https://github.com/opendistro-for-elasticsearch/security-advanced-modules.git`
 
-Install to the `.m2` directory: 
-
-
 `cd security-advanced-modules`
+
+Install to the `.m2` directory: 
 
 `mvn clean install`
 
