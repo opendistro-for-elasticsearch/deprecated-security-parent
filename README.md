@@ -29,7 +29,9 @@ To build the security plugin from source follow these instructions **in this ord
 
 1. Download the `security-parent` source code:
 
-`git clone https://github.com/opendistro-for-elasticsearch/security-parent.git`
+```
+git clone https://github.com/opendistro-for-elasticsearch/security-parent.git
+```
 
 2. Install to the local repository folder named `.m2`: 
 
@@ -42,51 +44,60 @@ cd ..
 
 3. Download the `security` source code:
 
-`git clone https://github.com/opendistro-for-elasticsearch/security.git`
+```
+git clone https://github.com/opendistro-for-elasticsearch/security.git
+```
 
 4. Install to the local repository folder named `.m2`: 
 
-`cd security`
-
-`mvn clean install`
-
-`cd ..`
+```
+cd security
+mvn clean install
+cd ..
+```
 
 5. Download the `security-ssl` source code: 
 
 **(Note: This step is needed only for the security plug-in for Open Distro version 0.9.0 supporting Elasticsearch 6.7.1 and below.)**
 
-`git clone https://github.com/opendistro-for-elasticsearch/security-ssl.git`
+```
+git clone https://github.com/opendistro-for-elasticsearch/security-ssl.git
+```
 
 6. Install to the local repository folder named `.m2`: 
 
-`cd security-ssl`
-
-`mvn clean install`
-
-`cd .. `
+```
+cd security-ssl
+mvn clean install
+cd ..
+```
 
 7. Download the `security-advanced-modules` source code:
 
-`git clone https://github.com/opendistro-for-elasticsearch/security-advanced-modules.git`
+```
+git clone https://github.com/opendistro-for-elasticsearch/security-advanced-modules.git
+```
 
 8. Install to the local repository folder named `.m2`: 
 
-`cd security-advanced-modules`
-
-`mvn clean install`
-
-`cd .. `
+```
+cd security-advanced-modules
+mvn clean install
+cd ..
+```
 
 9. Build the Elasticsearch plugin and install final artifacts:
 
-`cd security`
-
-`mvn clean package -Padvanced` 
+```
+cd security
+mvn clean package -Padvanced
+```
 
 The above builds the final artifacts in zip format. 
 
-`cd target/releases/`
+```
+cd target/releases/
+```
 
 The artifacts can be found in the folder listed above.
 
@@ -99,11 +110,10 @@ https://github.com/opendistro-for-elasticsearch/security-kibana-plugin/blob/mast
 
 Install the plugin to your Elasticsearch cluster with the following commands:
 
-`cd elasticsearch/bin`
-
-
-`./elasticsearch-plugin install file:///path/to/security/target/releases/opendistro_security-<version>.zip`
-
+```
+cd elasticsearch/bin
+./elasticsearch-plugin install file:///path/to/security/target/releases/opendistro_security-<version>.zip
+```
 
 ## License
 
