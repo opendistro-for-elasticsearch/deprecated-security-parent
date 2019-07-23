@@ -11,7 +11,7 @@ Open Distro for Elasticsearch Security Parent is the parent repo for the Open Di
 [Security Kibana Plugin]( https://github.com/opendistro-for-elasticsearch/security-kibana-plugin)
 
 ## Documentation
-Please refer to the [technical documentation](https://opendistro.github.io/for-elasticsearch-docs) for detailed information.
+Please refer to the [technical documentation](https://opendistro.github.io/for-elasticsearch-docs/docs/security-configuration) for detailed information.
 
 ## Requirements
 
