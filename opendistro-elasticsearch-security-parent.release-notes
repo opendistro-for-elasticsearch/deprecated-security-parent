@@ -1,4 +1,8 @@
-## 2019-07-11, Version 1.0.0.1 ( Current )
+## 2019-07-23, Version 1.0.0.2 ( Current )
+
+- Changes in security and kibana security plugin.
+
+## 2019-07-11, Version 1.0.0.1
 
 - Support For Elasticsearch 7.0
 
