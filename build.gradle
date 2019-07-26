@@ -7,14 +7,14 @@ plugins {
 buildDir = 'gradle-build'
 
 ext {
-    opendistroVersion = '0.9.0'
+    opendistroVersion = '0.10.0'
     isSnapshot = "true" == System.getProperty("build.snapshot", "true")
 }
 
 group = "com.amazon.opendistroforelasticsearch"
 // Increment the final digit when there's a new plugin versions for the same opendistro version
 // Reset the final digit to 0 when upgrading to a new opendistro version
-version = "${opendistroVersion}.1" + (isSnapshot ? "-SNAPSHOT" : "")
+version = "${opendistroVersion}.0" + (isSnapshot ? "-SNAPSHOT" : "")
 
 
 if (!project.hasProperty("archivePath")) {
@@ -26,7 +26,7 @@ if (!project.file(archivePath).exists()) {
 
 ospackage {
     packageName = "opendistro-security"
-    release = isSnapshot ? "0.1" : '1'
+    release = isSnapshot ? "0.0" : '0'
     version = "${project.version}" - "-SNAPSHOT"
 
     into '/usr/share/elasticsearch/plugins'
@@ -39,7 +39,7 @@ ospackage {
     fileMode 0644
     dirMode 0755
 
-    requires('elasticsearch-oss', "6.7.1", EQUAL)
+    requires('elasticsearch-oss', "6.8.1", EQUAL)
     packager = 'Amazon'
     vendor = 'Amazon'
     os = 'LINUX'
