@@ -42,21 +42,7 @@ mvn clean install
 cd ..
 ```
 
-3. Download the `security` source code:
-
-```
-git clone https://github.com/opendistro-for-elasticsearch/security.git
-```
-
-4. Install to the local repository folder named `.m2`: 
-
-```
-cd security
-mvn clean install
-cd ..
-```
-
-5. Download the `security-ssl` source code: 
+3. Download the `security-ssl` source code:
 
 **(Note: This step is needed only for the security plug-in for Open Distro version 0.10.0 supporting Elasticsearch 6.8.1 and below.)**
 
@@ -64,10 +50,24 @@ cd ..
 git clone https://github.com/opendistro-for-elasticsearch/security-ssl.git
 ```
 
-6. Install to the local repository folder named `.m2`: 
+4. Install to the local repository folder named `.m2`: 
 
 ```
 cd security-ssl
+mvn clean install
+cd ..
+```
+
+5. Download the `security` source code:
+
+```
+git clone https://github.com/opendistro-for-elasticsearch/security.git
+```
+
+6. Install to the local repository folder named `.m2`: 
+
+```
+cd security
 mvn clean install
 cd ..
 ```
