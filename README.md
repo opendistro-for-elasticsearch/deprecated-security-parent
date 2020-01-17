@@ -3,7 +3,7 @@
 
 ## Note:
 
-* **Deprecated as of Opendistro version 1.0**
+* **Deprecated as of Opendistro version 1.4.x.x**
 
 # Open Distro For Elasticsearch Security Parent
 
