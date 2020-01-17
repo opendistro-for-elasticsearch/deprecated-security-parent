@@ -1,9 +1,9 @@
 
 [![CI](https://github.com/opendistro-for-elasticsearch/security-parent/workflows/CI/badge.svg?branch=master)](https://github.com/opendistro-for-elasticsearch/security-parent/actions)
 
-## Note:
+## Deprecated as of Opendistro version 1.4:
 
-* **Deprecated as of Opendistro version 1.4.x.x**
+* Security-advanced-modules and security-parent have been merged into security.
 
 # Open Distro For Elasticsearch Security Parent
 
