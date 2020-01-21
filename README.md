@@ -1,6 +1,10 @@
 
 [![CI](https://github.com/opendistro-for-elasticsearch/security-parent/workflows/CI/badge.svg?branch=master)](https://github.com/opendistro-for-elasticsearch/security-parent/actions)
 
+## Deprecated as of Opendistro version 1.4:
+
+* Security-advanced-modules and security-parent have been merged into security.
+
 # Open Distro For Elasticsearch Security Parent
 
 Open Distro for Elasticsearch Security Parent is the parent repo for the Open Distro for Elasticsearch security plugin repositories, including:
